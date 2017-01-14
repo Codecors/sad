@@ -1,0 +1,30 @@
+{
+	"mappings": [
+		{
+			"src": "assets/less/src",
+			"dest": "assets/css"
+		},
+		{
+			"src": "assets/js/uikit",
+			"dest": "assets/js/vendor"
+		}
+	],
+	"ignores": [
+		"*.css",
+		"*.js",
+		"assets/less/uikit"
+	],
+
+	"options": {
+		"outputStyle": "compressed",
+		"lineComments": false,
+		"debugInfo": false,
+		"sourceMap": false,
+		"unixNewlines": false,
+        "autoprefix": true
+	},
+
+	"customOptions": [],
+	"includePaths": [],
+	"requireLibs": []
+}
